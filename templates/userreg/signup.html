@@ -1,4 +1,3 @@
-{% extends "../base.html" %}
 {% load static %}
 {% block title %}
 {% endblock title %}
@@ -10,7 +9,7 @@
 <div class="contents">
     <form class="login" method='POST'>
         {% csrf_token %}
-        <img src="/static/images/face2.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/5761/5761226.png">
         <input class="txt" type="text" placeholder="Username" name="username">
         <input class="txt" type="text" placeholder="Email" name="email">
         <input class="txt" type="password" placeholder="Password" name="password">
