@@ -10,8 +10,4 @@ cd Campus-Recruitment-System
 
 pip install -r requirements.txt
 
-Install dependencies pip install virtualenv virtualenv env 
-
-Install django pipenv install django cd Campus-Recruitment-System 
-
 Serve on localhost:8000 python manage.py runserver
